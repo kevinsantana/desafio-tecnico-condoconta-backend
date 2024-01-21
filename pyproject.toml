@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "condo_conta"
+version = "0.1.0"
+description = ""
+authors = ["Kevin Araujo <kevin_santana.araujo@hotmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.109.0"
+python-dotenv = "^1.0.0"
+black = "^23.12.1"
+loguru = "^0.7.2"
+uvicorn = "^0.26.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
